@@ -10,6 +10,6 @@ class Invoices extends Model
     use HasFactory;
 
     protected $fillable = [
-        'name', 'price', 'quantity', 'note'
+        'date', 'name', 'price', 'quantity', 'note'
     ];
 }

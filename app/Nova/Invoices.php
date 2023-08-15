@@ -45,7 +45,7 @@ class Invoices extends Resource
     public function fields(Request $request)
     {
         return [
-            Date::make('Date', 'date'),
+            Date::make('Date', 'created_at'),
             Text::make('Customer'),
             Text::make('Product Name'),
             Currency::make('Price'),
